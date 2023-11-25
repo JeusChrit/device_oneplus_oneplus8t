@@ -9,9 +9,6 @@
 
 DEVICE_PATH := device/oneplus/oneplus8t
 
-# Display
-TARGET_SCREEN_DENSITY := 415
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
