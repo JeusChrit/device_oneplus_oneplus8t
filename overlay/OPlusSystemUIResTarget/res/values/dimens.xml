@@ -32,7 +32,7 @@
     <dimen name="qs_header_row_min_height">133px</dimen>
 
     <!-- Location on the screen of the center of the physical power button. -->
-    <dimen name="physical_power_button_center_screen_location_y">900px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">905px</dimen>
 
     <!-- Alert Slider UI -->
     <dimen name="tri_state_down_dialog_position">565px</dimen>
