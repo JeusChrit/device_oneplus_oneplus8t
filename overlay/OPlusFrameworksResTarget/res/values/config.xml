@@ -127,31 +127,31 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>0.0</item>
-        <item>172.17</item>
-        <item>272.88</item>
-        <item>344.34</item>
-        <item>399.77</item>
-        <item>445.06</item>
-        <item>483.35</item>
-        <item>516.51</item>
-        <item>545.77</item>
-        <item>571.94</item>
-        <item>595.61</item>
-        <item>617.23</item>
-        <item>637.11</item>
-        <item>655.52</item>
-        <item>672.65</item>
-        <item>688.68</item>
-        <item>703.74</item>
-        <item>717.94</item>
-        <item>731.37</item>
-        <item>744.11</item>
-        <item>756.23</item>
-        <item>767.79</item>
-        <item>778.83</item>
-        <item>789.4</item>
-        <item>799.54</item>
+        <item>3.27792</item>
+        <item>7.74304</item>
+        <item>24.41824</item>
+        <item>48.41824</item>
+        <item>74.6736</item>
+        <item>105.52</item>
+        <item>128.736</item>
+        <item>134.208</item>
+        <item>143.216</item>
+        <item>160.544</item>
+        <item>163.536</item>
+        <item>175.168</item>
+        <item>182.704</item>
+        <item>198.176</item>
+        <item>206.688</item>
+        <item>220.912</item>
+        <item>233.792</item>
+        <item>270.144</item>
+        <item>375.84</item>
+        <item>448</item>
+        <item>512</item>
+        <item>576</item>
+        <item>648</item>
+        <item>720</item>
+        <item>800</item>
     </array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
