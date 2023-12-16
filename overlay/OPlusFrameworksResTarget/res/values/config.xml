@@ -127,30 +127,30 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>3.27792</item>
-        <item>7.74304</item>
-        <item>24.41824</item>
-        <item>48.41824</item>
-        <item>74.6736</item>
-        <item>105.52</item>
-        <item>128.736</item>
-        <item>134.208</item>
-        <item>143.216</item>
-        <item>160.544</item>
-        <item>163.536</item>
-        <item>175.168</item>
-        <item>182.704</item>
-        <item>198.176</item>
-        <item>206.688</item>
-        <item>220.912</item>
-        <item>233.792</item>
-        <item>270.144</item>
-        <item>375.84</item>
+        <item>32</item>
+        <item>64</item>
+        <item>96</item>
+        <item>128</item>
+        <item>160</item>
+        <item>192</item>
+        <item>224</item>
+        <item>256</item>
+        <item>288</item>
+        <item>320</item>
+        <item>352</item>
+        <item>384</item>
+        <item>416</item>
         <item>448</item>
+        <item>480</item>
         <item>512</item>
+        <item>544</item>
         <item>576</item>
-        <item>648</item>
-        <item>720</item>
+        <item>608</item>
+        <item>640</item>
+        <item>672</item>
+        <item>704</item>
+        <item>736</item>
+        <item>768</item>
         <item>800</item>
     </array>
 
@@ -163,261 +163,70 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
         <item>0.0</item>
-        <item>99.94</item>
-        <item>158.4</item>
-        <item>199.88</item>
-        <item>232.06</item>
-        <item>258.35</item>
-        <item>280.57</item>
-        <item>299.83</item>
-        <item>316.81</item>
-        <item>332.0</item>
-        <item>345.74</item>
-        <item>358.29</item>
-        <item>369.83</item>
-        <item>380.51</item>
-        <item>390.46</item>
-        <item>399.77</item>
-        <item>408.51</item>
-        <item>416.75</item>
-        <item>424.55</item>
-        <item>431.94</item>
-        <item>438.98</item>
-        <item>445.68</item>
-        <item>452.09</item>
-        <item>458.23</item>
-        <item>464.12</item>
-        <item>469.77</item>
-        <item>475.21</item>
-        <item>480.46</item>
-        <item>485.52</item>
-        <item>490.4</item>
-        <item>495.13</item>
-        <item>499.71</item>
-        <item>504.15</item>
-        <item>508.45</item>
-        <item>512.63</item>
-        <item>516.69</item>
-        <item>520.64</item>
-        <item>524.49</item>
-        <item>528.23</item>
-        <item>531.88</item>
-        <item>535.44</item>
-        <item>538.92</item>
-        <item>542.31</item>
-        <item>545.63</item>
-        <item>548.87</item>
-        <item>552.04</item>
-        <item>555.14</item>
-        <item>558.17</item>
-        <item>561.15</item>
-        <item>564.06</item>
-        <item>566.91</item>
-        <item>569.71</item>
-        <item>572.46</item>
-        <item>575.15</item>
-        <item>577.8</item>
-        <item>580.4</item>
-        <item>582.95</item>
-        <item>585.46</item>
-        <item>587.92</item>
-        <item>590.35</item>
-        <item>592.73</item>
-        <item>595.07</item>
-        <item>597.38</item>
-        <item>599.65</item>
-        <item>601.89</item>
-        <item>604.09</item>
-        <item>606.26</item>
-        <item>608.39</item>
-        <item>610.5</item>
-        <item>612.57</item>
-        <item>614.62</item>
-        <item>616.63</item>
-        <item>618.62</item>
-        <item>620.58</item>
-        <item>622.52</item>
-        <item>624.43</item>
-        <item>626.31</item>
-        <item>628.18</item>
-        <item>630.01</item>
-        <item>631.83</item>
-        <item>633.62</item>
-        <item>635.39</item>
-        <item>637.13</item>
-        <item>638.86</item>
-        <item>640.57</item>
-        <item>642.25</item>
-        <item>643.92</item>
-        <item>645.57</item>
-        <item>647.2</item>
-        <item>648.81</item>
-        <item>650.4</item>
-        <item>651.98</item>
-        <item>653.54</item>
-        <item>655.08</item>
-        <item>656.6</item>
-        <item>658.11</item>
-        <item>659.61</item>
-        <item>661.09</item>
-        <item>662.55</item>
-        <item>664.0</item>
-        <item>665.43</item>
-        <item>666.86</item>
-        <item>668.26</item>
-        <item>669.66</item>
-        <item>671.03</item>
-        <item>672.4</item>
-        <item>673.76</item>
-        <item>675.1</item>
-        <item>676.43</item>
-        <item>677.74</item>
-        <item>679.05</item>
-        <item>680.34</item>
-        <item>681.62</item>
-        <item>682.89</item>
-        <item>684.15</item>
-        <item>685.4</item>
-        <item>686.64</item>
-        <item>687.86</item>
-        <item>689.08</item>
-        <item>690.29</item>
-        <item>691.48</item>
-        <item>692.67</item>
-        <item>693.85</item>
-        <item>695.02</item>
-        <item>696.17</item>
-        <item>697.32</item>
-        <item>698.46</item>
-        <item>699.59</item>
-        <item>700.72</item>
-        <item>701.83</item>
-        <item>702.93</item>
-        <item>704.03</item>
-        <item>705.12</item>
-        <item>706.2</item>
-        <item>707.27</item>
-        <item>708.33</item>
-        <item>709.39</item>
-        <item>710.44</item>
-        <item>711.48</item>
-        <item>712.51</item>
-        <item>713.54</item>
-        <item>714.56</item>
-        <item>715.57</item>
-        <item>716.58</item>
-        <item>717.57</item>
-        <item>718.57</item>
-        <item>719.55</item>
-        <item>720.53</item>
-        <item>721.5</item>
-        <item>722.46</item>
-        <item>723.42</item>
-        <item>724.37</item>
-        <item>725.32</item>
-        <item>726.26</item>
-        <item>727.19</item>
-        <item>728.12</item>
-        <item>729.04</item>
-        <item>729.95</item>
-        <item>730.86</item>
-        <item>731.77</item>
-        <item>732.67</item>
-        <item>733.56</item>
-        <item>734.45</item>
-        <item>735.33</item>
-        <item>736.2</item>
-        <item>737.08</item>
-        <item>737.94</item>
-        <item>738.8</item>
-        <item>739.66</item>
-        <item>740.51</item>
-        <item>741.35</item>
-        <item>742.2</item>
-        <item>743.03</item>
-        <item>743.86</item>
-        <item>744.69</item>
-        <item>745.51</item>
-        <item>746.33</item>
-        <item>747.14</item>
-        <item>747.95</item>
-        <item>748.75</item>
-        <item>749.55</item>
-        <item>750.34</item>
-        <item>751.13</item>
-        <item>751.92</item>
-        <item>752.7</item>
-        <item>753.48</item>
-        <item>754.25</item>
-        <item>755.02</item>
-        <item>755.79</item>
-        <item>756.55</item>
-        <item>757.3</item>
-        <item>758.06</item>
-        <item>758.81</item>
-        <item>759.55</item>
-        <item>760.29</item>
-        <item>761.03</item>
-        <item>761.76</item>
-        <item>762.49</item>
-        <item>763.22</item>
-        <item>763.94</item>
-        <item>764.66</item>
-        <item>765.38</item>
-        <item>766.09</item>
-        <item>766.8</item>
-        <item>767.5</item>
-        <item>768.2</item>
-        <item>768.9</item>
-        <item>769.6</item>
-        <item>770.29</item>
-        <item>770.98</item>
-        <item>771.66</item>
-        <item>772.34</item>
-        <item>773.02</item>
-        <item>773.7</item>
-        <item>774.37</item>
-        <item>775.04</item>
-        <item>775.7</item>
-        <item>776.37</item>
-        <item>777.03</item>
-        <item>777.68</item>
-        <item>778.34</item>
-        <item>778.99</item>
-        <item>779.64</item>
-        <item>780.28</item>
-        <item>780.92</item>
-        <item>781.56</item>
-        <item>782.2</item>
-        <item>782.83</item>
-        <item>783.47</item>
-        <item>784.09</item>
-        <item>784.72</item>
-        <item>785.34</item>
-        <item>785.96</item>
-        <item>786.58</item>
-        <item>787.19</item>
-        <item>787.81</item>
-        <item>788.42</item>
-        <item>789.02</item>
-        <item>789.63</item>
-        <item>790.23</item>
-        <item>790.83</item>
-        <item>791.43</item>
-        <item>792.02</item>
-        <item>792.61</item>
-        <item>793.2</item>
-        <item>793.79</item>
-        <item>794.38</item>
-        <item>794.96</item>
-        <item>795.54</item>
-        <item>796.12</item>
-        <item>796.69</item>
-        <item>797.26</item>
-        <item>797.84</item>
-        <item>798.4</item>
-        <item>798.97</item>
-        <item>799.54</item>
+        <item>12.5</item>
+        <item>25</item>
+        <item>37.5</item>
+        <item>50</item>
+        <item>62.5</item>
+        <item>75</item>
+        <item>87.5</item>
+        <item>100</item>
+        <item>112.5</item>
+        <item>125</item>
+        <item>137.5</item>
+        <item>150</item>
+        <item>162.5</item>
+        <item>175</item>
+        <item>187.5</item>
+        <item>200</item>
+        <item>212.5</item>
+        <item>225</item>
+        <item>237.5</item>
+        <item>250</item>
+        <item>262.5</item>
+        <item>275</item>
+        <item>287.5</item>
+        <item>300</item>
+        <item>312.5</item>
+        <item>325</item>
+        <item>337.5</item>
+        <item>350</item>
+        <item>362.5</item>
+        <item>375</item>
+        <item>387.5</item>
+        <item>400</item>
+        <item>412.5</item>
+        <item>425</item>
+        <item>437.5</item>
+        <item>450</item>
+        <item>462.5</item>
+        <item>475</item>
+        <item>487.5</item>
+        <item>500</item>
+        <item>512.5</item>
+        <item>525</item>
+        <item>537.5</item>
+        <item>550</item>
+        <item>562.5</item>
+        <item>575</item>
+        <item>587.5</item>
+        <item>600</item>
+        <item>612.5</item>
+        <item>625</item>
+        <item>637.5</item>
+        <item>650</item>
+        <item>662.5</item>
+        <item>675</item>
+        <item>687.5</item>
+        <item>700</item>
+        <item>712.5</item>
+        <item>725</item>
+        <item>737.5</item>
+        <item>750</item>
+        <item>762.5</item>
+        <item>775</item>
+        <item>787.5</item>
+        <item>800</item>
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -426,260 +235,69 @@
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
         <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
         <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
         <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
         <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
         <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
         <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
         <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
         <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
         <item>32</item>
-        <item>33</item>
-        <item>34</item>
-        <item>35</item>
         <item>36</item>
-        <item>37</item>
-        <item>38</item>
-        <item>39</item>
         <item>40</item>
-        <item>41</item>
-        <item>42</item>
-        <item>43</item>
         <item>44</item>
-        <item>45</item>
-        <item>46</item>
-        <item>47</item>
         <item>48</item>
-        <item>49</item>
-        <item>50</item>
-        <item>51</item>
         <item>52</item>
-        <item>53</item>
-        <item>54</item>
-        <item>55</item>
         <item>56</item>
-        <item>57</item>
-        <item>58</item>
-        <item>59</item>
         <item>60</item>
-        <item>61</item>
-        <item>62</item>
-        <item>63</item>
         <item>64</item>
-        <item>65</item>
-        <item>66</item>
-        <item>67</item>
         <item>68</item>
-        <item>69</item>
-        <item>70</item>
-        <item>71</item>
         <item>72</item>
-        <item>73</item>
-        <item>74</item>
-        <item>75</item>
         <item>76</item>
-        <item>77</item>
-        <item>78</item>
-        <item>79</item>
         <item>80</item>
-        <item>81</item>
-        <item>82</item>
-        <item>83</item>
         <item>84</item>
-        <item>85</item>
-        <item>86</item>
-        <item>87</item>
         <item>88</item>
-        <item>89</item>
-        <item>90</item>
-        <item>91</item>
         <item>92</item>
-        <item>93</item>
-        <item>94</item>
-        <item>95</item>
         <item>96</item>
-        <item>97</item>
-        <item>98</item>
-        <item>99</item>
         <item>100</item>
-        <item>101</item>
-        <item>102</item>
-        <item>103</item>
         <item>104</item>
-        <item>105</item>
-        <item>106</item>
-        <item>107</item>
         <item>108</item>
-        <item>109</item>
-        <item>110</item>
-        <item>111</item>
         <item>112</item>
-        <item>113</item>
-        <item>114</item>
-        <item>115</item>
         <item>116</item>
-        <item>117</item>
-        <item>118</item>
-        <item>119</item>
         <item>120</item>
-        <item>121</item>
-        <item>122</item>
         <item>123</item>
-        <item>124</item>
-        <item>125</item>
-        <item>126</item>
         <item>127</item>
-        <item>128</item>
-        <item>129</item>
-        <item>130</item>
         <item>131</item>
-        <item>132</item>
-        <item>133</item>
-        <item>134</item>
         <item>135</item>
-        <item>136</item>
-        <item>137</item>
-        <item>138</item>
         <item>139</item>
-        <item>140</item>
-        <item>141</item>
-        <item>142</item>
         <item>143</item>
-        <item>144</item>
-        <item>145</item>
-        <item>146</item>
         <item>147</item>
-        <item>148</item>
-        <item>149</item>
-        <item>150</item>
         <item>151</item>
-        <item>152</item>
-        <item>153</item>
-        <item>154</item>
         <item>155</item>
-        <item>156</item>
-        <item>157</item>
-        <item>158</item>
         <item>159</item>
-        <item>160</item>
-        <item>161</item>
-        <item>162</item>
         <item>163</item>
-        <item>164</item>
-        <item>165</item>
-        <item>166</item>
         <item>167</item>
-        <item>168</item>
-        <item>169</item>
-        <item>170</item>
         <item>171</item>
-        <item>172</item>
-        <item>173</item>
-        <item>174</item>
         <item>175</item>
-        <item>176</item>
-        <item>177</item>
-        <item>178</item>
         <item>179</item>
-        <item>180</item>
-        <item>181</item>
-        <item>182</item>
         <item>183</item>
-        <item>184</item>
-        <item>185</item>
-        <item>186</item>
         <item>187</item>
-        <item>188</item>
-        <item>189</item>
-        <item>190</item>
         <item>191</item>
-        <item>192</item>
-        <item>193</item>
-        <item>194</item>
         <item>195</item>
-        <item>196</item>
-        <item>197</item>
-        <item>198</item>
         <item>199</item>
-        <item>200</item>
-        <item>201</item>
-        <item>202</item>
         <item>203</item>
-        <item>204</item>
-        <item>205</item>
-        <item>206</item>
         <item>207</item>
-        <item>208</item>
-        <item>209</item>
-        <item>210</item>
         <item>211</item>
-        <item>212</item>
-        <item>213</item>
-        <item>214</item>
         <item>215</item>
-        <item>216</item>
-        <item>217</item>
-        <item>218</item>
         <item>219</item>
-        <item>220</item>
-        <item>221</item>
-        <item>222</item>
         <item>223</item>
-        <item>224</item>
-        <item>225</item>
-        <item>226</item>
         <item>227</item>
-        <item>228</item>
-        <item>229</item>
-        <item>230</item>
         <item>231</item>
-        <item>232</item>
-        <item>233</item>
-        <item>234</item>
         <item>235</item>
-        <item>236</item>
-        <item>237</item>
-        <item>238</item>
         <item>239</item>
-        <item>240</item>
-        <item>241</item>
-        <item>242</item>
         <item>243</item>
-        <item>244</item>
-        <item>245</item>
         <item>246</item>
-        <item>247</item>
-        <item>248</item>
-        <item>249</item>
-        <item>250</item>
         <item>251</item>
-        <item>252</item>
-        <item>253</item>
-        <item>254</item>
         <item>255</item>
     </integer-array>
 
