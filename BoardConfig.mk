@@ -7,6 +7,9 @@
 # Include the common OEM chipset BoardConfig.
 -include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := oneplus9r|oneplus8t|kona|OnePlus8T|OnePlus9R|lemonades|kebab|lemonkebab|LE2100|LE2101|KB2000|KB2001|KB2003|KB2005|KB2007
+
 DEVICE_PATH := device/oneplus/oneplus8t
 
 # HIDL
