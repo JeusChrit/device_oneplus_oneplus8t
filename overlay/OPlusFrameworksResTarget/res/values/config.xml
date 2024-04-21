@@ -334,6 +334,30 @@
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
 
+    <string-array name="config_nightDisplayColorTemperatureCoefficients">
+         <item>0.0000000000</item>
+         <item>0.0000000000</item>
+         <item>1.0000000000</item>
+         <item>0.0000000000</item>
+         <item>0.0001636364</item>
+         <item>0.3352000000</item>
+         <item>0.0000000000</item>
+         <item>0.0003496503</item>
+         <item>-0.4376923077</item>
+    </string-array>
+
+    <string-array name="config_nightDisplayColorTemperatureCoefficientsNative">
+         <item>0.0000000000</item>
+         <item>0.0000000000</item>
+         <item>1.0000000000</item>
+         <item>0.0000000000</item>
+         <item>0.0001636364</item>
+         <item>0.3352000000</item>
+         <item>0.0000000000</item>
+         <item>0.0003496503</item>
+         <item>-0.4376923077</item>
+    </string-array>
+
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
          {@link android.util.PathParser}.
